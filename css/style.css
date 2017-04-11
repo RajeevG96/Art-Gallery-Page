@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.otf);
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    font-family: Montserrat;
+}
+
+/*Logo Styles*/
+
+.logo {
+    color: black;
+    text-decoration: none;
+}
+
+.logo h1 {
+    margin: 20px auto;
+    outline: 2px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+
+.logo-container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+/*Header Styles*/
+
+.head {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.hero-1 {
+    background-image: url(../img/hero-dark.jpg);
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 5%;
+}
+
+.header-text {
+    margin: 0 0;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.hero-inner {
+    text-align: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-inner button {
+    margin-top: 1%;
+    filter: brightness(80%)
+}
+
+.hero-inner button:hover {
+    filter: brightness(100%)
+}
+
+.hero-inner button i {
+    margin-left: 10px;
+}
+
+.stars {
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.stars i {
+    margin-left: 1%;
+}
+
+/*Main Styles*/
+
+.container-main {
+    width: 90%;
+    margin: 0 auto;
+    height: 140%;
+}
+
+.title-container h1 {
+    text-align: center;
+    outline: 2px solid black;
+    width: 300px;
+    margin: 20px auto;
+    font-size: 2em;
+}
+
+.container-main h3 {
+    text-align: center;
+}
+
+/*Location Styles*/
+
+.locations-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 3%;
+    height: 35%
+}
+
+.card {
+    background-color: #F8F7F5;
+    width: 22%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 1em;
+}
+
+.card p {
+    text-align: left;
+    font-size: 0.7em;
+    color: black;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.card-image:hover {
+    filter:brightness(100%);
+}
+
+.hero-2 {
+    background-image: url(../img/hero2-dark.jpg);
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Footer styles*/
+
+.container-foot {
+    width: 90%;
+    margin: 0 auto;
+    height: 40%;
+    }
+
+.join-in {
+    height: 100%;
+    padding-top: 10%;
+}
+
+.social-media {
+    width: 50%;
+    float: left;
+    height: 40%;
+}
+
+.sign-up {
+    width: 50%;
+    float: left;
+    height: 40%;
+}
+
+.sign-up form {
+    margin-left: 23%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.icon-container {
+    margin-right: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-container i {
+    color: black;
+    padding-right: 5%;
+}
+
+.footer-list {
+    float: left;
+    width: 25%;
+}
+
+.footer-list h1 {
+    font-size: 2em;
+}
+
+.footer-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-list ul li a {
+    color: black;
+}
+
+.footer-list ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.footer-img {
+    float: left;
+    width: 50%;
+    padding-left: 14%;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.foot-logo-container {
+    width: 30%;
+}
+
+.final-list {
+    width: 40%;
+    float: right;
+    padding-left: 0;
+    position: relative;
+    margin-top: -3.2%;
+}
+
+.final-list li {
+    display: inline;
+    padding-right; 
+    padding-right: 3%;
+}
+
+/*Media Queries*/
+
+@media screen 
+  and (min-device-width: 1150px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .container-main {
+        width: 90%;
+        margin: 0 auto;
+        height: 150%;
+}
+      
+
+}
